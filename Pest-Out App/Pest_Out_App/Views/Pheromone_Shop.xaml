@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pest_Out_App.Views.Pheromone_Shop"
+             BackgroundColor="White"
+             Title="Shop">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+
+                <Image Source="pic.jpg"/>
+                <Label Text="Pantry Moth Traps 6 Blue-Traps"/>
+                <Label Text="R812,52"
+                   FontAttributes="Bold"/>
+                <Button Text="Buy"
+                        Clicked="Button_Clicked"/>
+
+                <Image Source="Traps.jpg"/>
+                <Label Text="Victor Roach Pheromone Trap - 96 Traps"/>
+                <Label Text="R701,72"
+                   FontAttributes="Bold"/>
+                <Button Text="Buy"
+                        Clicked="Button_Clicked"/>
+
+                <Image Source="BLDTEST.jpg"/>
+                <Label Text="Test Kit"/>
+                <Label Text="R300,02"
+                   FontAttributes="Bold"/>
+                <Button Text="Buy"
+                        Clicked="Button_Clicked"/>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pest_Out_App.Views.Pest_Selection"
+             BackgroundColor="White"
+             Title="Pest Selection">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout VerticalOptions="Center">
+
+                <Label Text="Select Pest"
+                       HorizontalOptions="Center"
+                       TextColor="Purple"
+                       FontAttributes="Bold"/>
+
+                <Button Text="African Army Worm"
+                        Clicked="Button_Clicked"/>
+
+                <Button Text="Corn Leaf Aphid"/>
+
+                <Button Text="Corn Stunt Leafhoppers"/>
+
+                <Button Text="Cutworm"/>
+
+                <Button Text="European Maize Borer"/>
+
+                <Button Text="Grasshoppers"/>
+
+                <Button Text="Fall army worm"/>
+
+                <Button Text="Neotropical Corn Borer"/>
+
+                <Button Text="Spider Mites"/>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
